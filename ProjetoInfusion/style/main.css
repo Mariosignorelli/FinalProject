@@ -1,9 +1,16 @@
 body{
     margin: 0;
    font-family: 'Open Sans'sans-serif;
+   line-height: 1.4;
 }
 img{
     max-width: 100%;
+}
+.contener{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 .header{
 background: #fff;
@@ -55,12 +62,16 @@ border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
 height: 80vh;
 padding: 40px 20px;
 text-align: center;
-background-image: url(../img/01.jpg);
-background-size: cover;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
+
+
+background: linear-gradient(45deg ,white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat,   linear-gradient(-45deg ,white 50%, transparent 50%) left calc(50% - 20px) bottom  no-repeat,
+   url(../img/01.jpg);
+background-size:  40px 40px,40px 40px, cover;
 
 }
 .hero-title{
@@ -90,4 +101,30 @@ text-decoration: none;
 font-size: 16px;
 font-weight: 600;
 text-transform: uppercase;
+}
+.people-cards{
+    margin-top: 2,5em;
+}
+
+.people-card-image{
+    width: 100%;
+}
+.people-cards-avatar{
+    margin: -55px auto;
+    width: 88px;
+    height: 88px;
+    overflow: hidden;
+}
+.people-card-contant{
+    padding: 40px 25px 10px;
+    text-align: center;
+    border: 1px solid #dbe1e7;
+}
+.people-card-contant h2{
+color: #737c85;
+font-size: 21px;
+}
+.people-card-contant p{
+    color: #929da5;
+    font-size: 14px;
 }
