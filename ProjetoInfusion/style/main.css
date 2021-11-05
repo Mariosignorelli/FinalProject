@@ -185,3 +185,25 @@ font-size: 21px;
     background-color: #455357;
     color: white;
 }
+.last_articles{}
+.last_articles_title{
+    background-color: #63c6ae;
+    padding: 5px 0;
+}
+.last_articles_title h2{
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+  font-weight: 400;
+}
+.last_articles_thumbs{
+    display: grid;
+   grid-template-columns: 250px 250px 250px;
+    grid-auto-rows: auto;
+    grid-gap: 0;
+    justify-content:flex-start;
+}
+.last_articles_thumbs img{
+    display: block;
+width: auto;
+}
