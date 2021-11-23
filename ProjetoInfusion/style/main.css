@@ -223,3 +223,43 @@ overflow: auto;
 .slider-show figure{
     display: inline-block;
 }
+
+.quote-contener{
+    background-color:#63c6ae ;
+    padding: 50px 0;
+    border-bottom: 12px solid #48b9a1;
+}
+
+
+.quote-slidershow h2{
+color: white;
+font-size: 30px;
+font-style: italic;
+font-weight: normal;
+}
+.quote-slidershow figcaption{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.no-js ,quate-slidershow figure + figure{
+    margin-top: 5em;
+}
+.footer{
+    background-color: #242a2c;
+    padding: 20px 0 250px;
+    color: #455e51;
+    font-size: 14px;
+
+}
+.footer-links li{
+list-style: none;
+}
+.footer-links a{
+    color: #455e51;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
