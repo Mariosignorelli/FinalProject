@@ -15,7 +15,10 @@ img{
 .header{
 background: #fff;
 width: 100%;
-position: static;
+}
+.js .header{
+    position: fixed;
+    width: 100%;
 }
 .logo-text{
 text-transform: uppercase;
@@ -32,7 +35,7 @@ color: #fff;
 text-align: right;
 }
 .header-btnmenu{
-
+scroll-behavior: auto;
 }
 .header-nav{
    clear: left;
@@ -190,7 +193,7 @@ font-size: 21px;
     background-color: #455357;
     color: white;
 }
-.last_articles{}
+
 .last_articles_title{
     background-color: #63c6ae;
     padding: 5px 0;
@@ -306,12 +309,12 @@ list-style: none;
         gap: 30px;
     }
     .last_articles_thumbs{
-        grid-template-columns:repeat(6, 1fr )
+        grid-template-columns:repeat(6, 1fr );
     }
     .footer .conteiner{
         display:flex;
     }
-    .footer .conteiner > *{
+    .footer .conteiner {
         margin: 2em;
     }
 }
